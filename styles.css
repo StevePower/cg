@@ -1,0 +1,106 @@
+.testclass-name
+div.css-section {
+	border:1px dotted black;
+	padding : 20px;
+}
+
+div.css-section p {
+	color:black;
+}
+
+P {
+	font-size 50px;
+}
+
+h1,h2{
+
+	color: black;
+	font-family: Helvitca neue,ariel;
+}
+
+
+h1 {
+	font size: 40;
+}
+
+
+h2 {
+	font-size: 20;
+}
+
+
+#container
+{
+width: 100%;
+margin: 1px auto;
+background-color: white;
+color: #333;
+border: 1px solid gray;
+line-height: 100%;
+}
+
+html {
+	margin:0;
+	padding: 0;
+}
+
+
+
+#left_nav
+{
+position: fixed;
+width: 260px;
+top: 0;
+left: 0;
+padding: 20px 40px;
+background-color: #fff;
+height: 100%;
+outline: 0;
+}
+
+#top
+{
+padding: .5em;
+background-color: #ddd;
+border-bottom: 1px white;
+} 
+
+#top h1
+{
+padding: 0;
+margin: 0;
+font-size: 10em;
+color :black;
+} 
+
+body {
+	background-color: white;
+	color:azure;
+	font-size:1.1em;
+}
+
+#intro {
+	font-size: 1.3em;
+}
+
+.colorful {
+	color:orange;
+}
+
+.banner {
+	display: block;
+	width: 100%;
+	height: 25%;
+}
+
+.footer {
+	clear:both;
+	margin:0;
+	padding: .5em;
+	color:#333;
+	background-color: white;
+	border-top:1px solid gray;
+}
+*{
+	border:1px solid red !important;
+}
