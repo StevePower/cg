@@ -11,42 +11,41 @@
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="../styles/style.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/contact.css">
 	</head>
 	<body>
 	<!-- Navbar -->
-		<div class="w3-top">
-			<div class="w3-bar w3-black w3-card">
-				<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-				<a href="../indexcg.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-				<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
-				<a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
-				<div class="w3-dropdown-hover w3-hide-small">
-					<button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-					<div class="w3-dropdown-content w3-bar-block w3-card-4">
-						<a href="#" class="w3-bar-item w3-button">Merchandise</a>
-						<a href="#" class="w3-bar-item w3-button">Extras</a>
-						<a href="#" class="w3-bar-item w3-button">Media</a>
+		<div class="cg-header">
+			<div class="cg-nav cg-black cg-card">
+				<a class="cg-nav-item cg-button cg-padding-large cg-hide-medium cg-hide-large cg-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+				<a href="../indexcg.html" class="cg-nav-item cg-button cg-padding-large">HOME</a>
+				<a href="#band" class="cg-nav-item cg-button cg-padding-large cg-hide-small">BAND</a>
+				<a href="#tour" class="cg-nav-item cg-button cg-padding-large cg-hide-small">TOUR</a>
+				<div class="cg-dropdown-hover cg-hide-small">
+					<button class="cg-padding-large cg-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+					<div class="cg-dropdown-content cg-nav-block cg-card-4">
+						<a href="#" class="cg-nav-item cg-button">Merchandise</a>
+						<a href="#" class="cg-nav-item cg-button">Extras</a>
+						<a href="#" class="cg-nav-item cg-button">Media</a>
 					</div>
 				</div>
-				<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+				<a href="javascript:void(0)" class="cg-padding-large cg-hover-red cg-hide-small cg-right"><i class="fa fa-search"></i></a>
 			</div>
 		</div>
 		<!-- Navbar on small screens -->
-		<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-			<a href="#band" class="w3-bar-item w3-button w3-padding-large">BAND</a>
-			<a href="#tour" class="w3-bar-item w3-button w3-padding-large">TOUR</a>
-			<a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
+		<div id="smallNav" class="cg-nav-block cg-black cg-hide cg-hide-large cg-hide-medium cg-header" style="margin-top:46px">
+			<a href="#band" class="cg-nav-item cg-button cg-padding-large">BAND</a>
+			<a href="#tour" class="cg-nav-item cg-button cg-padding-large">TOUR</a>
+			<a href="#" class="cg-nav-item cg-button cg-padding-large">MERCH</a>
 		</div>
 		
 		<div class="contactArea">
-			<h2 class="w3-wide w3-center">CONTACT</h2>
-			<p class="w3-opacity w3-center"><i>Please get in touch!</i></p>
-			<div class="w3-row w3-padding-32" id="w3Padding">
-			  <div class="w3-col m6 w3-large w3-margin-bottom">
+			<h2 class="cg-wide cg-center">CONTACT</h2>
+			<p class="cg-opacity cg-center"><i>Please get in touch!</i></p>
+			<div class="cg-row cg-padding-32" id="cgPadding">
+			  <div class="cg-col m6 cg-large cg-margin-bottom">
 				<i class="fa fa-map-marker" style="width:30px"></i> Dublin,Kerry,Ireland<br>
 				<i class="fa fa-phone" style="width:30px"></i> Phone: +086 3700608<br>
 				<i class="fa fa-envelope" style="width:30px"> </i> Email: management@changinggears.ie<br>
@@ -65,11 +64,11 @@
 		<script>
 			// Used to toggle the menu on small screens when clicking on the menu button
 			function myFunction() {
-				var x = document.getElementById("navDemo");
-				if (x.className.indexOf("w3-show") == -1) {
-					x.className += " w3-show";
+				var x = document.getElementById("smallNav");
+				if (x.className.indexOf("cg-show") == -1) {
+					x.className += " cg-show";
 				} else { 
-					x.className = x.className.replace(" w3-show", "");
+					x.className = x.className.replace(" cg-show", "");
 				}
 			}
 		</script>
