@@ -16,7 +16,7 @@ body {font-family: "Lato", sans-serif}
 <div class="cg-header">
   <div class="cg-nav cg-black cg-card">
     <a class="cg-nav-item cg-button cg-padding-large cg-hide-medium cg-hide-large cg-right" href="javascript:void(0)" onclick="toggleMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="cg-nav-item cg-button cg-padding-large">HOME</a>
+    <a href="index.php" class="cg-nav-item cg-button cg-padding-large">HOME</a>
     <a href="#band" class="cg-nav-item cg-button cg-padding-large cg-hide-small">BAND</a>
     <a href="#tour" class="cg-nav-item cg-button cg-padding-large cg-hide-small">TOUR</a>
     <a href="form.php" class="cg-nav-item cg-button cg-padding-large cg-hide-small">CONTACT</a>
@@ -52,7 +52,6 @@ body {font-family: "Lato", sans-serif}
 <!--php -->
 
 <?php include('form_process.php'); ?>
-<link rel="stylesheet" href="form.css" type="text/css">
 <div class="container">  
   <form id="contact" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
     <h3>Contact</h3>

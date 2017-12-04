@@ -20,9 +20,8 @@ body {font-family: "Lato", sans-serif}
     <a href="#band" class="cg-nav-item cg-button cg-padding-large cg-hide-small">BAND</a>
     <a href="#tour" class="cg-nav-item cg-button cg-padding-large cg-hide-small">TOUR</a>
     <a href="form.php" class="cg-nav-item cg-button cg-padding-large cg-hide-small">CONTACT</a>
-<!-- Saturday code -->
 
-    <a href="#music.html" class="cg-nav-item cg-button cg-padding-large 
+     <a href="music.html" class="cg-nav-item cg-button cg-padding-large 
     cg-hide-small">MUSIC</a>
     <a href="video.html" class="cg-nav-item cg-button cg-padding-large cg-hide-small">VIDEO</a>
 
@@ -37,25 +36,24 @@ body {font-family: "Lato", sans-serif}
     <a href="javascript:void(0)" class="cg-padding-large cg-hover-red cg-hide-small cg-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
-<!-- Navbar on small screens -->
+
 <!-- Navbar on small screens -->
 <div id="smallNav" class="cg-nav-block cg-black cg-hide cg-hide-large cg-hide-medium cg-header" style="margin-top:46px">
   <a href="#band" class="cg-nav-item cg-button cg-padding-large">BAND</a>
   <a href="#tour" class="cg-nav-item cg-button cg-padding-large">TOUR</a>
   <a href="form.php" class="cg-nav-item cg-button cg-padding-large">CONTACT</a>
- <a href="#" class="cg-nav-item cg-button cg-padding-large">MERCH</a>
-<!-- Saturday code -->
+  <a href="#" class="cg-nav-item cg-button cg-padding-large">MERCH</a>
+  <!-- Saturday code -->
   <a href="music.html" class="cg-nav-item cg-button cg-padding-large">MUSIC</a>
   <a href="video.html" class="cg-nav-item cg-button cg-padding-large">VIDEO</a>
 </div>
- 
 
 <!-- Page content -->
 <div class="cg-content" style="margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
   <div class="cg-slides cg-display-container cg-center">
-    <img src="images/BandCG.jpg" style="width:100%">
+    <img src="images/bandcg.jpg" style="width:100%">
     <div class="cg-display-bottommiddle cg-container cg-text-white cg-padding-32 cg-hide-small">
       <h3>Changing Gears Music</h3>
       <p><b>Ireland!</b></p>   
@@ -77,45 +75,41 @@ body {font-family: "Lato", sans-serif}
   </div>
 
   <!-- The Band Section -->
-  <div class="cg-container cg-content cg-center cg-padding-64" style="max-width:800px" id="band">
-    <h2 class="cg-wide">THE MUSIC</h2>
+  <div class="cg-container cg-content cg-center cg-padding-64" id="band">
+    <h2 class="cg-wide">THE BAND</h2>
     <p class="cg-opacity"><i>About Us</i></p>
-    <p class="cg-justify">GoldenPlec: "Good-mood music which should leave you smiling" 
-Altsounds.com: "They have the ability to craft some lovely melodies, washed down with simple lyrics and some delicious guitar licks" 
-Hot Press: "Changing Gears can play, dance and sing!" 
-PureM: "Seriously warm and infectious"
+    <p class="cg-justify">Changing Gears are an indie-pop-punk concoction engaged in a vainglorious attempt to strip music of its lofty pretensions and just play some good fun music. They feature a blonde one, a tall one, two bald ones and a small one and are here to give you a pleasant musical punch in the gut.
+Currently the band reside in dusty old factory on Dublin's east wall, which has been repurposed as a rehearsal studio to assist in their pursuit of making a minor, almost imperceptible, imprint on music culture.
+They have played shows in all manner of venues, from salubrious to ramshackle, which has often led to polite applause and even genuine interest. Something the band neither seeks nor desires.
 </p>
-      <div>
-       <iframe src="https://embed.spotify.com/?uri=spotify%3Aartist%3A7KNUiuJlWIFlzAQaanHa4a" width=100%; height="380" frameborder="0"></iframe>
+    <div class="cg-row cg-padding-32">
+        <div class="cg-third">
+         <p>Eoin</p>
+        <img src="images/towercg.jpg" class="cg-circle" alt="Eoin" style="width:60%">
       </div>
-        <div class="cg-center" style="max-width:800px" id="band">
-      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=810267529/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://changinggears.bandcamp.com/album/we-hear-you">We Hear You! by Changing Gears</a></iframe>
+        <div class="cg-third">
+        <p>Morgan</p>
+        <img src="images/morgancg.jpg" class="cg-circle" alt="Morgan" style="width:80%">
       </div>
-      <div>
-    <iframe style="border: 0px currentColor; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=887552162/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" width="400" height="150" seamless=""><a href="http://changinggears.bandcamp.com/album/iii-ep">III (EP) by Changing Gears</a></iframe>
+      <div class="cg-third">
+         <p>Colin</p>
+        <img src="images/colinlamplightcg.jpg" class="cg-circle cg-margin-bottom" alt="Colin" style="width:60%">
       </div>
-      <div>
-       <iframe style="border: 0px currentColor; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=3648376206/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" width="300" height="150" seamless=""><a href="http://changinggears.bandcamp.com/album/fun-ep">Fun (EP) by Changing Gears</a></iframe>
+      <div class="cg-third">
+        <p>Danny</p>
+        <img src="images/dannycg.jpg" class="cg-circle cg-margin-bottom" alt="Random Name" style="width:60%">
       </div>
-         <div>
-        <iframe style="border: 0px currentColor; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=1008516548/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" width="300" height="150" seamless=""><a href="http://changinggears.bandcamp.com/album/dont-you-wish-ep">Don't You Wish (EP) by Changing Gears</a></iframe>
+         <div class="cg-third">
+        <p>Steve</p>
+        <img src="images/stevecg.jpg" class="cg-circle" alt="Steve" style="width:100%">
       </div>
-      <div>
-        <iframe style="border: 0px currentColor; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=971782991/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" width="300" height="150" seamless=""><a href="http://changinggears.bandcamp.com/album/the-end">The End by Changing Gears</a></iframe>
       </div>
-      <div>
-        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3397715574/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://changinggears.bandcamp.com/album/communicate">Communicate by Changing Gears</a></iframe>
-      </div>
-        <div>
-      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=810267529/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://changinggears.bandcamp.com/album/we-hear-you">We Hear You! by Changing Gears</a></iframe>
-      </div>
-
     </div>
   </div>
 
   <!-- The Tour Section -->
   <div class="cg-black" id="tour">
-    <div class="cg-container cg-content cg-padding-64" style="max-width:800px">
+    <div class="cg-container cg-content cg-padding-64">
       <h2 class="cg-wide cg-center">TOUR DATES</h2>
       <p class="cg-opacity cg-center"><i>Upcoming Shows!</i></p><br>
 
@@ -170,7 +164,7 @@ PureM: "Seriously warm and infectious"
   </div>
 
   <!-- The Contact Section -->
-  <div class="cg-container cg-content cg-padding-64" style="max-width:800px" id="contact">
+  <div class="cg-container cg-content cg-padding-64" id="contact">
     <h2 class="cg-wide cg-center">CONTACT</h2>
     <p class="cg-opacity cg-center"><i>Please get in touch!</i></p>
     <div class="cg-row cg-padding-32">
@@ -180,18 +174,30 @@ PureM: "Seriously warm and infectious"
         <i class="fa fa-envelope" style="width:30px"> </i> Email: management@changinggears.ie<br>
       </div>
       <div class="cg-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="cg-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="cg-half">
-              <input class="cg-input cg-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="cg-half">
-              <input class="cg-input cg-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="cg-input cg-border" type="text" placeholder="Message" required name="Message">
-          <button class="cg-button cg-black cg-section cg-right" type="submit">SEND</button>
-        </form>
+      <?php include('form_process.php'); ?>
+      <form id="contact" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
+      <fieldset>
+        <input placeholder="Your name" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
+        <span class="error"><?= $name_error ?></span>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="text" name="email" value="<?= $email ?>" tabindex="2">
+        <span class="error"><?= $email_error ?></span>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number" type="text" name="phone" value="<?= $phone ?>" tabindex="3">
+        <span class="error"><?= $phone_error ?></span>
+      </fieldset>
+      <fieldset>
+        <textarea value="<?= $message ?>" name="message" tabindex="5">
+        </textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+      <div class="success"><?= $success ?></div>
+    </form>
+  </div>
       </div>
     </div>
   </div>
